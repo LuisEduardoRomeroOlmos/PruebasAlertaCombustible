@@ -83,7 +83,7 @@ st.session_state.active_tab = selected_tab
 # --- Logo en la barra lateral ---
 st.sidebar.markdown("---")
 try:
-    logo1 = Image.open("img/1.png")
+    logo1 = Image.open("1.png")
     st.sidebar.image(logo1, width=200)
 except:
     st.sidebar.write("Logo no disponible")
